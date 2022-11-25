@@ -31,6 +31,11 @@ li {
     list-style: none;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 /* ROOT STYLES */
 
 :root {
@@ -236,6 +241,50 @@ section {
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 0.035em;
+}
+
+/* CARD FORM TABLE */
+
+.card-table {
+    padding: 130px 72px;
+}
+
+.card-form-table {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.card-form-thead tr {
+    padding: 0 22px;
+    border-bottom: 1px solid #759993;
+}
+
+.card-form-thead tr td {
+    font-weight: 600;
+    font-size: clamp(12px, 4vw, 40px);
+    color: var(--darkGreen);
+    text-align: center;
+    padding: 0 22px;
+}
+
+.card-form-tbody tr td {
+    padding: 16px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px, 4vw, 36px);
+    line-height: 54px;
+    color: var(--black);
+}
+
+.card-form-tbody tr {
+    border-bottom: 1px solid #759993;
+}
+
+.card-form-tbody tr:last-child {
+    border-bottom: none;
 }
 
 
