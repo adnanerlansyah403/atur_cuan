@@ -23,6 +23,10 @@ select {
     outline: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
 }
@@ -439,6 +443,63 @@ table {
     cursor: pointer;
 }
 
+/* HEADER */
 
+.header {
+    position: relative;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECECEC;
+}
 
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
 
+.header .logo span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+}
+
+.header .button-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .navbar {
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: 5%;
+    padding: 14px 18px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 50;
+}
+
+.header .navbar.active {
+    display: block;
+}
+
+.header .navbar .navbar-list {
+    text-align: center;
+}
+
+.header .navbar .navbar-list .nav-item:not(:last-child) {
+    padding-bottom: 12px;
+}
+
+.header .navbar .navbar-list .nav-item a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
