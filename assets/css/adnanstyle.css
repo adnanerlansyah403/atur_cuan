@@ -83,7 +83,8 @@ table {
 #totalPendapatan .btn,
 #laporanKeuangan .btn,
 #anggaraIconTambah .btn,
-#pengeluaran .btn
+#pengeluaran .btn,
+#daftarAnggaran .btn
 {
     padding: 4px 42px;
     border-radius: 1.5rem;
@@ -97,6 +98,7 @@ table {
 #totalPendapatan .btn-success,
 #pengeluaran .btn-success,
 #anggaranTambahanIcon .btn-success,
+#daftarAnggaran .btn-success,
 #laporanKeuangan .btn-success
 {
     background-color: var(--greenSuccess);
@@ -106,6 +108,7 @@ table {
 #totalPendapatan .btn-danger, 
 #pengeluaran .btn-danger, 
 #anggaranTambahanIcon .btn-danger, 
+#daftarAnggaran .btn-danger, 
 #laporanKeuangan .btn-danger 
 {
     background-color: var(--redDanger);
@@ -115,6 +118,7 @@ table {
 #totalPendapatan .btn-warning, 
 #pengeluaran .btn-warning, 
 #anggaranTambahanIcon .btn-warning, 
+#daftarAnggaran .btn-warning, 
 #laporanKeuangan .btn-warning
 {
     background-color: var(--pureYellow);
@@ -124,6 +128,7 @@ table {
 #totalPendapatan .btn-info, 
 #pengeluaran .btn-info, 
 #anggaranTambahanIcon .btn-info, 
+#daftarAnggaran .btn-info, 
 #laporanKeuangan .btn-info 
 {
     background-color: var(--pureBlue);
@@ -135,11 +140,13 @@ table {
 #totalPendapatan .card-form, 
 #pengeluaran .card-form, 
 #anggaranTambahanIcon .card-form, 
+#daftarAnggaran .card-form, 
 #laporanKeuangan .card-form
 {
     padding: 36px 50px 40px 50px;
     position: relative;
     background-color: var(--pureGray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
 }
  
@@ -147,6 +154,7 @@ table {
 #totalPendapatan .card-form.anggaran .card-item-form,
 #pengeluaran .card-form.anggaran .card-item-form,
 #anggaraTambahanIcon .card-form.anggaran .card-item-form,
+#daftarAnggaran .card-form.anggaran .card-item-form,
 #laporanKeuangan .card-form.anggaran .card-item-form
 {
     padding-top: 26px;
@@ -156,6 +164,7 @@ table {
 #totalPendapatan .card-form-back, 
 #pengeluaran .card-form-back, 
 #anggaranTambahanIcon .card-form-back, 
+#daftarAnggaran .card-form-back, 
 #laporanKeuangan .card-form-back
 {
     font-style: normal;
@@ -169,6 +178,7 @@ table {
 #totalPendapatan .card-form-badge,
 #pengeluaran .card-form-badge,
 #anggaranTambahanIcon .card-form-badge,
+#daftarAnggaran .card-form-badge,
 #laporanKeuangan .card-form-badge
 {
     position: absolute;
@@ -180,6 +190,7 @@ table {
 #totalPendapatan .card-form-badge,
 #pengeluaran .card-form-badge,
 #anggaranTambahIcon .card-form-badge,
+#daftarAnggaran .card-form-badge,
 #laporanKeuangan .card-form-badge
 {
     padding: 11px 28px 14px 28px;
@@ -196,6 +207,7 @@ table {
 #totalPendapatan .card-form-badge-title-wrapper,
 #pengeluaran .card-form-badge-title-wrapper,
 #anggaranTambahanIcon .card-form-badge-title-wrapper,
+#daftarAnggaran .card-form-badge-title-wrapper,
 #laporanKeuangan .card-form-badge-title-wrapper
 {
     display: flex;
@@ -207,6 +219,7 @@ table {
 #totalPendapatan .card-form-badge-title-wrapper img,
 #pengeluaran .card-form-badge-title-wrapper img,
 #anggaranTambahanIcon .card-form-badge-title-wrapper img,
+#daftarAnggaran .card-form-badge-title-wrapper img,
 #laporanKeuangan .card-form-badge-title-wrapper img
 {
     width: clamp(30px, 4vw, 50px);
@@ -216,7 +229,8 @@ table {
 #tabungan .card-form-badge-text-title,
 #totalPendapatan .card-form-badge-text-title,
 #pengeluaran .card-form-badge-text-title,
-#anggaranTambahanIcon .card-form-badge-text-title
+#anggaranTambahanIcon .card-form-badge-text-title,
+#daftarAnggaran .card-form-badge-text-title,
 #laporanKeuangan .card-form-badge-text-title
 {
     font-style: normal;
@@ -228,6 +242,7 @@ table {
 #totalPendapatan .card-form-badge-price, 
 #pengeluaran .card-form-badge-price, 
 #anggaranTambahanIcon .card-form-badge-price, 
+#daftarAnggaran .card-form-badge-price, 
 #laporanKeuangan .card-form-badge-price
 {
     font-style: normal;
@@ -239,6 +254,7 @@ table {
 #totalPendapatan .card-form-title, 
 #pengeluaran .card-form-title, 
 #anggaranTambahanIcon .card-form-title, 
+#daftarAnggaran .card-form-title, 
 #laporanKeuangan .card-form-title
 {
     padding-top: 28px;
@@ -250,6 +266,7 @@ table {
 #totalPendapatan .card-list-form, 
 #pengeluaran .card-list-form, 
 #anggaranTambahanIcon .card-list-form, 
+#daftarAnggaran .card-list-form, 
 #laporanKeuangan .card-list-form 
 {
     max-width: 902px;
@@ -259,6 +276,7 @@ table {
 #totalPendapatan .card-item-form, 
 #pengeluaran .card-item-form, 
 #anggaranTambahanIcon .card-item-form, 
+#daftarAnggaran .card-item-form, 
 #laporanKeuangan .card-item-form
 {
     padding: 20px 0;
@@ -269,6 +287,7 @@ table {
 #totalPendapatan .card-item-form label, 
 #pengeluaran .card-item-form label, 
 #anggaranTambahanIcon .card-item-form label, 
+#daftarAnggaran .card-item-form label, 
 #laporanKeuangan .card-item-form label 
 {
     font-style: normal;
@@ -281,6 +300,7 @@ table {
 #totalPendapatan .card-item-input, 
 #pengeluaran .card-item-input, 
 #anggaranTambahanIcon .card-item-input, 
+#daftarAnggaran .card-item-input, 
 #laporanKeuangan .card-item-input 
 {
     position: relative;
@@ -382,7 +402,42 @@ table {
     border-bottom: none;
 }
 
+.card-order-list {
+    padding-top: 28px;
+}
 
+.card-order-item {
+    padding: 24px 0;
+}
+
+.card-order-item:not(:last-child) {
+    border-bottom: 1px solid #000000;
+}
+
+.card-order-item h3 {
+    padding-bottom: 8px;
+}
+
+.card-order-item h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    color: #262424;
+}
+
+#daftarAnggaran .btn-add-more {
+    position: absolute;
+    bottom: -50px;
+    right: 100px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 
 
